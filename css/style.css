@@ -1,0 +1,28 @@
+.menu, .menu1, .menu2, .menu3{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style:none ;
+    background-color: #202020;
+    color: #f0f0f0;
+    font-size: 2em;
+    padding: 30px 10px;
+}
+.menu1{
+    justify-content: space-between;
+    list-style: circle;
+    background-color: #ff0000;
+    color: black;
+}
+.menu2{
+    justify-content:space-evenly;
+    list-style:decimal;
+    background-color: #00ff08;
+    color: rgb(255, 255, 255);
+}
+.menu3{
+    justify-content:end;
+    list-style:lower-latin;
+    background-color: #ff00c8;
+    color: black;
+}
